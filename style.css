@@ -59,7 +59,9 @@ img {
 }
 
 .gallely {
+  padding: 20px;
   background-color: #F7F7F7;
+  margin-top: 20px;
 }
 
 .gallely-title{
@@ -81,6 +83,14 @@ img {
 }
 
 @media screen and ( max-width:479px ){
+  .br-sp {
+    display: none; 
+  }
+
+  p {
+    font-size: 12px;
+  }
+
   .top {
     margin-top: 20px;
   }
