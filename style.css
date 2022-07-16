@@ -61,10 +61,15 @@ img {
 .gallely {
   padding: 20px;
   background-color: #F7F7F7;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
-.gallely-title{
+.gallely-title {
+  text-align: center;
+  margin-bottom: 25 px;
+}
+
+.gallely-text{
   margin-top: 15px;
 }
 
@@ -104,7 +109,11 @@ img {
   }
 
   .section-title{
-    margin-top: 20px;
+    margin-top: 0px;
+  }
+
+  .gallely-title {
+    margin-bottom: 20px;
   }
 
   .contact {
