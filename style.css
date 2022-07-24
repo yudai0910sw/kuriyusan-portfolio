@@ -58,7 +58,7 @@ img {
 
 .concept {
   margin-top: 80px;
-  background-color: #F7F7F7;
+  background-color: #ffffffa3;
 }
 .concept-img {
   width: 100%;
@@ -68,12 +68,12 @@ img {
 
 .about-me {
   margin-top: 80px;
-  background-color: #F7F7F7;
+  background-color: #ffffffa3;
 }
 
 .gallely {
   padding: 20px;
-  background-color: #F7F7F7;
+  background-color: #ffffffa3;
   margin-top: 80px;
 }
 
@@ -102,7 +102,7 @@ img {
 
 /* ボタン */
 .button006 a {
-  background: #F7F7F7;
+  background: #ffffffa3;
   position: relative;
   display: flex;
   justify-content: space-around;
