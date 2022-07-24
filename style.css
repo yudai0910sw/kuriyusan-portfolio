@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
+body {
+  /* background-color: #fcf1de; */
+  /* background-color: #fffab6; */
+  background-color: #f0f0e3;
+
+}
+
 h1 {
   font-family: 'Caveat', cursive;
 }
@@ -95,7 +102,7 @@ img {
 
 /* ボタン */
 .button006 a {
-  background: #eee;
+  background: #F7F7F7;
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -117,7 +124,7 @@ img {
   transform: translateY(calc(-50% - 2px)) rotate(30deg);
   width: 12px;
   height: 2px;
-  background-color: #6bb6ff;
+  background-color: #FFCC4E;
   transition: 0.3s;
 }
 .button006 a:after {
@@ -128,7 +135,7 @@ img {
   transform: translateY(-50%);
   width: 60px;
   height: 2px;
-  background-color: #6bb6ff;
+  background-color: #FFCC4E;
   transition: 0.3s;
 }
 .button006 a:hover:before, .button006 a:hover:after {
@@ -136,14 +143,14 @@ img {
 }
 .button006 a:hover {
   background: #edf6ff;
-  color: #6bb6ff;
+  color: #FFCC4E;
 }
 
 /* instabtn */
 .insta_btn {
   display: inline-block;
   text-align: center;/*中央揃え*/
-  color: #2e6ca5;/*文字色*/
+  color: white;/*文字色*/
   font-size: 20px;/*文字サイズ*/
   text-decoration: none;/*下線消す*/
 }
