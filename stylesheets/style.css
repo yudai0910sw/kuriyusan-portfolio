@@ -89,7 +89,7 @@ img {
 .contact {
   height: 500px;
   background-size: 100%;
-  background-image: url(./sample.jpg);
+  background-image: url(../img/sample.jpg);
   background-repeat:no-repeat;
   margin-top: 80px;
 }

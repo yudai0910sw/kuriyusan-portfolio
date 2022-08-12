@@ -45,6 +45,10 @@
   margin-bottom: 10px;
 }
 
+.accordion-header p {
+  font-size: 20px;
+}
+
 @media screen and ( max-width:479px ){
   .top {
     margin-top: 30px;
@@ -82,5 +86,9 @@
   .q-and-a {
     padding: 0px;
     margin-top: 50px;
+  }
+
+  .accordion-header p {
+    font-size: 13px;
   }
 }
