@@ -5,3 +5,15 @@
 .secound {
   margin-top: 20px;
 }
+
+@media screen and ( max-width:479px ){
+  .secound {
+    margin-top: 0px;
+  }
+  img {
+    margin-top: 20px;
+  }
+  .one {
+    margin-bottom: 20px;
+  }
+}
