@@ -1,0 +1,85 @@
+.top {
+  margin-top: 50px;
+}
+.flow {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.img {
+  width: 60%;
+  margin-left: 50px;
+}
+
+.main {
+  margin-left: 50px;
+}
+
+.flow ul {
+  list-style: none;
+}
+
+.flow li {
+  margin-top: 15px;
+}
+
+.flow strong {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.sma{
+  display: none;
+}
+
+.q-and-a {
+  padding: 80px;
+}
+
+.q-and-a h1{
+  margin-bottom: 30px;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+@media screen and ( max-width:479px ){
+  .top {
+    margin-top: 30px;
+  }
+
+  .main {
+    margin-left: 0px;
+  }
+
+  .flow {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 13px;
+  }
+
+  .flow strong {
+    font-size: 20px;
+    margin-right: 0px;
+  }
+
+  .sma{
+    display: block;
+  }
+
+  .flow ul {
+    padding: 0;
+  }
+
+  .img {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .q-and-a {
+    padding: 0px;
+    margin-top: 50px;
+  }
+}
