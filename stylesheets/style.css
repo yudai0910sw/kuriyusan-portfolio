@@ -92,16 +92,15 @@ img {
 }
 
 .contact {
-  height: 500px;
-  background-size: 100%;
+  background-size: cover;
   background-image: url(../img/sample.jpg);
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   margin-top: 80px;
 }
 .contact-box {
   text-align: center;
   padding-top: 200px;
-  height: 100%;
+  height: 500px;
   background-color: rgba(0, 0, 0, 0.112);
   color: white;
 }
@@ -230,11 +229,7 @@ img {
   .gallely-title {
     margin-bottom: 20px;
   }
-
-  .contact {
-    height: 300px;
-  }
-
+  
   .contact-box {
     padding-top: 60px;
     height: 235px;
