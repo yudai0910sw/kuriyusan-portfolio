@@ -96,6 +96,7 @@ img {
   background-image: url(../img/sample.jpg);
   background-repeat: no-repeat;
   margin-top: 80px;
+  margin-bottom: 20px;
 }
 .contact-box {
   text-align: center;
@@ -229,7 +230,7 @@ img {
   .gallely-title {
     margin-bottom: 20px;
   }
-  
+
   .contact-box {
     padding-top: 60px;
     height: 235px;
