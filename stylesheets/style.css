@@ -16,6 +16,14 @@ h1 {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(105,105,105)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+.ps-br{
+  display: block; /* PCを改行して */
+}
+
+.sp-br{
+  display: none; /* SPの改行を隠す */
+}
+
 .navbar{
   background:rgba(255,255,255,0.8);
 }
@@ -52,23 +60,28 @@ img {
 }
 
 .section-title{
-  margin-top: 50px;
-  text-align: center;
-}
-
-.section-text {
   margin-top: 20px;
   text-align: center;
 }
 
+.section-text {
+  margin-top: 10px;
+  text-align: center;
+}
+
 .concept {
-  margin-top: 80px;
+  margin-top: 50px;
   background-color: #ffffffa3;
 }
+
 .concept-img {
   width: 100%;
-  height: 100%;
   padding: 20px;
+}
+
+.img {
+  text-align: center;
+  margin-top: 80px;
 }
 
 .about-me {
@@ -202,8 +215,12 @@ img {
     margin-right: 0px;
   }
 
-  .br-sp {
-    display: none; 
+  .ps-br{
+    display: none; /* PCの改行を隠して */
+  }
+
+  .sp-br{
+    display: block; /* SPを改行する */
   }
 
   p {
