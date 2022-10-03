@@ -46,6 +46,55 @@
     <main>
       <div class="container">
         <section class="top" style="text-align: center;">
+          <h1>Strength</h1>  
+          <p>強み</p>
+        </section>
+        <section class="flow">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="storength-main">
+                <h3>1. 残したい人、残したい瞬間に、残したい場所で</h3>
+                <p>あなたらしく、場所、時間に左右されることなく<br>2人が撮りたいお写真が撮れる瞬間に、<br>時間に関係なく帯同させていただきます。<br>早朝に深夜に、2人の思い出の場所で、<br>あなたを育ててくれた大切な人と写真が撮りたい。<br>あなたのわがまま全て叶えます。<br class="sma">こんなこことできるの、、？<br>是非お気軽にご相談ください。</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="flow-img">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/img1.jpg"></div>
+                    <div class="swiper-slide"><img src="img/img2.jpg"></div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="storength-main-2">
+                <h3>2.丁寧な打ち合わせと<br class="sma">臨機応変な対応</h3>
+                <p>不安なことを解消し、<br class="sma">安心して撮影当日を迎えていただけるように、<br>満足するまで打ち合わせを</p>
+                <h3>3. 1枚1枚丁寧に編集し、<br class="sma">魅力的な写真に</h3>
+                <p>撮影後、数枚お写真をお送りし、編集の方向性を決めます。<br>
+                  その後、要望に沿い、1枚1枚丁寧に編集をし、<br>お2人だけのオリジナルの1枚に仕上げます。</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="flow-img">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <!-- <div class="swiper-slide"><img src="img/sample.jpg"></div> -->
+                    <div class="swiper-slide"><img src="img/img3.jpg"></div>
+                    <!-- <div class="swiper-slide"><img src="img/sample-3.jpg"></div> -->
+                    <div class="swiper-slide"><img src="img/img4.jpg"></div>
+                    <!-- <div class="swiper-slide"><img src="img/sample-4.jpg"></div> -->
+                    <div class="swiper-slide"><img src="img/img5.jpg"></div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="top" style="text-align: center;">
           <h1>FLOW</h1>  
           <p>撮影までの流れ・よくある質問</p>
         </section>
@@ -65,8 +114,8 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="img">
-                <img src="img/img1.jpg" alt="">
+              <div class="flow-img">
+                <img src="img/img6.jpg" alt="">
               </div>
             </div>
           </div>
@@ -121,9 +170,23 @@
         </section>
       </div>
     </main>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script>
+    const swiper = new Swiper(".swiper", {
+      pagination: {
+        el: ".swiper-pagination"
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      autoplay: {
+        delay: 4000,
+      }
+    });
+    </script>
   </body>
 </html>
