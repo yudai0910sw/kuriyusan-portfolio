@@ -211,6 +211,14 @@ img {
   line-height: 50px;/*高さと合わせる*/
 }
 
+.mail_btn {
+  margin-left: 50px;
+}
+
+.mail_btn i {
+  color: rgb(255, 255, 255);
+}
+
 @media screen and ( max-width:479px ){
   .nav-item {
     margin-right: 0px;
