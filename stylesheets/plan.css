@@ -3,13 +3,18 @@
   margin-bottom: 30px;
 }
 
+.top-2 {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
 .plan-color{
   background-color: #ffffffa3;
   padding: 20px;
 }
 
-.section-1 {
-  margin-top: 30px;
+.plan-name {
+  margin-top: 60px;
 }
 
 .img {
@@ -17,29 +22,42 @@
   margin-top: 80px;
 }
 
+.strength {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #ffffffa3;
+}
+
+.strength-img {
+  padding: 20px;
+  margin-top: 50px;
+}
+.storength-main {
+  text-align: center;
+}
+.storength-main h3 {
+  margin-top: 100px;
+}
+.storength-main p {
+  margin-top: 20px;
+}
+
+.storength-main-2 {
+  text-align: center;
+}
+.storength-main-2 h3 {
+  margin-top: 60px;
+}
+.storength-main-2 p {
+  margin-top: 20px;
+}
+
+
 .img img {
   width: 90%;
 }
 
-.section-1 li {
-  margin-top: 10px;
-}
 
-.section-1 ul {
-  padding-bottom: 30px;
-}
-
-.section-2 {
-  margin-top: 50px;
-}
-
-.section-2 ul {
-  padding-bottom: 30px;
-}
-
-.section-2 li {
-  margin-top: 10px;
-}
 
 .attetion {
   background-color: #ffffffa3;
@@ -47,13 +65,24 @@
   margin-top: 50px;
 }
 
+.attetion li {
+  margin-bottom: 15px;
+}
+
 .main {
   margin-left: 100px;
 }
 
 @media screen and ( max-width:479px ){
-  .section-1 {
-    margin-top: 10px;
+  .storength {
+    margin-top: 0;
+  }
+  .storength-main h3 {
+    margin-top: 0;
+  }
+
+  .strength-img {
+    margin-top: 0;
   }
 
   .img {
@@ -71,6 +100,10 @@
 
   .main {
     margin-left: 0px;
+  }
+
+  .section {
+    margin-top: 20px;
   }
 
   .contact {
