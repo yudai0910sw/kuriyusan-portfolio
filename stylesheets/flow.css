@@ -1,10 +1,11 @@
 .top {
   margin-top: 50px;
 }
+
 .flow {
-  margin-top: 50px;
   padding: 20px;
   background-color: #ffffffa3;
+  margin-bottom: 20px;
 }
 
 .flow-img {
@@ -35,10 +36,6 @@
   margin-left: 50px;
 }
 
-.flow ul {
-  list-style: none;
-}
-
 .flow li {
   margin-top: 15px;
 }
@@ -53,7 +50,7 @@
 }
 
 .q-and-a {
-  padding: 80px;
+  padding: 20px;
 }
 
 .q-and-a h1{
@@ -78,7 +75,6 @@
   }
 
   .flow {
-    margin-top: 20px;
     padding: 20px;
     font-size: 13px;
   }
@@ -128,7 +124,10 @@
 
   .q-and-a {
     padding: 0px;
-    margin-top: 50px;
+  }
+
+  .q-and-a h1{
+    margin-bottom: 16px;
   }
 
   .accordion-header p {
