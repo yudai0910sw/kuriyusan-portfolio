@@ -4,7 +4,8 @@ body {
   /* background-color: #fcf1de; */
   /* background-color: #fffab6; */
   background-color: #f0f0e3;
-
+  /* font-family: 'a-otf-ryumin-pr6n',"YuMincho", "Hiragino Mincho ProN", "Yu Mincho", serif; */
+  font-family: "sofia-pro","Yu Gothic","YuGothic","Roboto","Helvetica Neue","Hiragino Kaku Gothic Pro","Meiryo","Arial","sans-serif";
 }
 
 h1 {
@@ -69,6 +70,15 @@ img {
   text-align: center;
 }
 
+.center-box {
+  text-align: center;
+}
+
+.center-box p {
+  display: inline-block;
+  text-align: left;
+}
+
 .concept {
   margin-top: 50px;
   background-color: #ffffffa3;
@@ -106,7 +116,7 @@ img {
 
 .contact {
   background-size: cover;
-  background-image: url(../common-img/contact.jpg);
+  background-image: url(../common-img/contact.webp);
   background-position: right 10% bottom 60%;
   background-repeat: no-repeat;
   margin-top: 80px;
@@ -234,15 +244,15 @@ img {
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .top {
     margin-top: 20px;
   }
 
-  .top p {
-    margin-top: 20px;
+  .top h3 {
+    font-size: 20px;
   }
   
   .concept {
