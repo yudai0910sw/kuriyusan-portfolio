@@ -82,6 +82,18 @@
   margin-left: 100px;
 }
 
+@media screen and ( max-width:1200px ){
+  .plan-name-wedding{
+    margin-top: 200px;
+  }
+  .plan-name-standard{
+    margin-top: 150px;
+  }
+  .main {
+    margin-left: 0px;
+  }
+}
+
 @media screen and ( max-width:479px ){
   .strength {
     margin-top: 0;

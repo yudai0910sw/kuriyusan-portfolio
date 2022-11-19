@@ -230,9 +230,9 @@ img {
   color: rgb(255, 255, 255);
 }
 
-@media screen and ( max-width:768px ){
+@media screen and ( max-width:1200px ){
   .section-title {
-    margin-top: 0px;
+    margin-top: 120px;
   }
 
 }
