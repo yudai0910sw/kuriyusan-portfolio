@@ -230,6 +230,13 @@ img {
   color: rgb(255, 255, 255);
 }
 
+@media screen and ( max-width:768px ){
+  .section-title {
+    margin-top: 0px;
+  }
+
+}
+
 @media screen and ( max-width:479px ){
   .nav-item {
     margin-right: 0px;
