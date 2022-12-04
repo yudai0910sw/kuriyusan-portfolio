@@ -25,6 +25,10 @@ h1 {
   display: none; /* SPの改行を隠す */
 }
 
+.none-span-ps {
+  display: inline-block;
+}
+
 .navbar{
   background:rgba(255,255,255,0.8);
 }
@@ -248,6 +252,10 @@ img {
 
   .sp-br{
     display: block; /* SPを改行する */
+  }
+
+  .none-span-ps {
+    display: none;
   }
 
   p {
